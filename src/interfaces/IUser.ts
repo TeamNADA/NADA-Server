@@ -3,7 +3,7 @@ export interface IUser {
     email: string,
     isOB: boolean,
     part: string,
-    age: string,
+    age: number,
     insta: string,
     school: string,
     name: string,
@@ -17,7 +17,7 @@ export interface IUser {
     }
     essential: {
         mbti: string,
-        inMincho: boolean,
+        isMincho: boolean,
         isBumuk: boolean,
         isSoju: boolean
     }

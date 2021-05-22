@@ -63,25 +63,25 @@ const UserSchema = new mongoose.Schema({
             },
         }
     ],
-    essential: [
-        {
-            mbti: {
-                type: String,
-                required: true,
-            },
-            isMincho: {
-                type: Boolean,
-                required: true,
-            },
-            isBumuk: {
-                type: Boolean,
-                required: true,
-            },
-            isSoju: {
-                type: Boolean,
-                required: true
-            }
+    essential: 
+    {
+        mbti: {
+            type: String,
+            required: true,
+        },
+        isMincho: {
+            type: Boolean,
+            required: true,
+        },
+        isBumuk: {
+            type: Boolean,
+            required: true,
+        },
+        isSoju: {
+            type: Boolean,
+            required: true
         }
-    ]
+    }
+    
 });
 export default mongoose.model<IUser & mongoose.Document>("User",UserSchema);

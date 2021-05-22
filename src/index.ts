@@ -11,6 +11,8 @@ app.use(express.json());
 // define route
 app.use("/api/register", require("./api/register"));
 app.use("/api/loadInfo", require("./api/loadInfo"));
+app.use("/api/matching", require("./api/matching"));
+
 
 // error handler
 app.use(function (err, req, res, next) {
