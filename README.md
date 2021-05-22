@@ -1,7 +1,3 @@
-# NADA-Server
-예오니 지으니의 승승장구 서버 개발기💙
-
-
 
 ## 💙 Project
 **솝트인을 위한 가장 간편한 자기소개, '나를 다' 담은 명함 서비스, "나다 NADA"**
@@ -9,9 +5,9 @@
 >
 > SOPT 28th Hackathon </b>
 >
-> 프로젝트 기간: 2021.05.22 ~ 2021.05.23
+> 프로젝트 기간: 2021.05.22 ~ 2021.05.23 </b>
 > Release : Comming Soon..!
-
+>
 
 <img style="border: 0px solid black !important; border-radius:20px; " src="https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png" width="200px" height = "200px" /> 
 
@@ -31,7 +27,8 @@
 ## 🛠 개발 환경 (Development Environment)
 
 * Development Environment  
-![TypeScript](https://img.shields.io/badge/Swift-5.0-orange.svg) ![Node.js](https://img.shields.io/badge/Platform-iOS-black.svg)
+![TypeScript](https://img.shields.io/badge/typescript-4.2.4-blue) ![Node.js](https://img.shields.io/badge/ts--node-9.1.1-yellowgreen)
+![Mongoose](https://img.shields.io/badge/Mongoose-5.12.2-brightgreen)
 
 <br>
 <br>
@@ -250,15 +247,15 @@ git push or git push origin main
 
 
  
-## 기능별 개발여부 + 담당자
-> [NADA Server 개발 일지📜  ](https://www.notion.so/Server-8711c89099884f92a58c45f8c0cf0378)
+## 👯‍♀️ 기능별 개발여부 + 담당자
+> [NADA Server 개발 일지 📜  ](https://www.notion.so/Server-8711c89099884f92a58c45f8c0cf0378)
 
 
 | 기능 | 개발 여부 | 담당자 |
 |:----------|:----------:|:----:|
-| api/register | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 오예원 |
-| api/loadInfo | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 오예원 |
-| api/matching | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 황지은 |
+| api/register | <img width=30px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 오예원 |
+| api/loadInfo | <img width=30px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 오예원 |
+| api/matching | <img width=30px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 황지은 |
 
 
 <br>
