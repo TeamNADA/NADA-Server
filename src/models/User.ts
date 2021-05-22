@@ -1,4 +1,3 @@
-import { Mongoose } from "mongoose";
 import mongoose from "mongoose";
 import { IUser } from "../interfaces/IUser";
 
@@ -43,31 +42,27 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    detail: [
+    detail: 
         {
             favBaskin: {
                 type: String,
-                required: true,
             },
             favFood: {
                 type: String,
-                required: true,
             },
             nickname: {
                 type: String,
-                required: true,
             },
             msg: {
                 type: String,
-                required: true,
             },
         }
-    ],
-    essential: [
+    ,
+    essential: 
         {
             mbti: {
                 type: String,
-                required: true,
+                required: [true, "MBTI is required"]
             },
             isMincho: {
                 type: Boolean,
@@ -82,6 +77,5 @@ const UserSchema = new mongoose.Schema({
                 required: true
             }
         }
-    ]
 });
 export default mongoose.model<IUser & mongoose.Document>("User",UserSchema);

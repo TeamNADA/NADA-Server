@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-import { check, validationResult } from "express-validator";
 
 const router = express.Router();
 import User from "../models/User";
@@ -21,13 +20,12 @@ router.post(
 
             if(!user){
                 res.status(400).json({
-                errors: [{msg: "User not exists"}]
+                    errors: [{msg: "유저가 존재하지 않습니다."}]
                 });
             }
             
-            console.log("LOAD", user);
+            res.status(200).json({"success":true, "msg": "유저 조회에 성공하였습니다.", "data":user});
         
-        // return 시켜줄 값 여기서 파싱 시켜서 주기
         }catch(err){
             console.log(err.message);
             res.status(500).send("Server Error");
