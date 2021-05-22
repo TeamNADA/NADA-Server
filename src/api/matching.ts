@@ -23,12 +23,12 @@ router.post(
 
             if(!myUserInfo){
                 res.status(400).json({
-                    errors: [{msg: "myID값이 없습니다."}]
+                    errors: [{msg: "나의 아이디 값이 없습니다."}]
                 });
             }
             if(!friendUserInfo){
                 res.status(400).json({
-                    errors: [{msg: "friendID값이 없습니다."}]
+                    errors: [{msg: "존재하지 않는 친구의 아이디 값입니다!"}]
                 });
             }
 
