@@ -62,7 +62,7 @@ const UserSchema = new mongoose.Schema({
         {
             mbti: {
                 type: String,
-                required: [true, "MBTI is required"]
+                required: true,
             },
             isMincho: {
                 type: Boolean,
