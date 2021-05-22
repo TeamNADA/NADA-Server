@@ -4,8 +4,7 @@
 
 
 ## 💙 Project
-**솝트인을 위한 가장 간편한 자기소개, '나를 다' 담은 명함 서비스**
-> **나다 NADA**
+**솝트인을 위한 가장 간편한 자기소개, '나를 다' 담은 명함 서비스, "나다 NADA"**
 > Core Value : Simple / Easy / Compact
 >
 > SOPT 28th Hackathon </b>
@@ -16,6 +15,8 @@
 
 <img style="border: 0px solid black !important; border-radius:20px; " src="https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png" width="200px" height = "200px" /> 
 
+<br>
+<br>
 
 
 ## 💡서비스 IA
@@ -134,6 +135,10 @@
 </div>
 </details>
  
+ 
+ <br>
+ <br>
+
 
 ## 💻 Github mangement
 
@@ -195,13 +200,13 @@ git add .
 git commit -m "커밋 메세지" origin 이름 브랜치
 ```
 
-- 푸시 (현재 **뷰이름** 브랜치)
+- 푸시 (현재 **이름** 브랜치)
 
 ```bash
-git push origin 뷰이름 브랜치
+git push origin 이름 브랜치 
 ```
 
-- 뷰이름 브랜치에서 할 일 다 했으면 **main** 브랜치로 전환
+- 이름 브랜치에서 할 일 다 했으면 **main** 브랜치로 전환
 
 ```bash
 git checkout main
@@ -251,9 +256,9 @@ git push or git push origin main
 
 | 기능 | 개발 여부 | 담당자 |
 |:----------|:----------:|:----:|
-| api/register | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png.png> | 오예원 |
-| api/loadInfo | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png.png> | 오예원 |
-| api/matching | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png.png> | 황지은 |
+| api/register | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 오예원 |
+| api/loadInfo | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 오예원 |
+| api/matching | <img width=10px src=https://user-images.githubusercontent.com/63224278/119236736-ffab9480-bb73-11eb-8594-ff7ad2f6c65f.png> | 황지은 |
 
 
 <br>
