@@ -52,7 +52,7 @@ const check_func = [
         try{
             let user = await User.findOne({id});
             if(user){
-                res.status(400).json({
+                return res.status(400).json({
                   errors: [{msg: "유저가 이미 존재합니다."}]
                 });
               }

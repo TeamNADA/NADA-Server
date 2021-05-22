@@ -19,7 +19,7 @@ router.post(
             let user = await User.findOne({id});
 
             if(!user){
-                res.status(400).json({
+                return res.status(400).json({
                     errors: [{msg: "유저가 존재하지 않습니다."}]
                 });
             }

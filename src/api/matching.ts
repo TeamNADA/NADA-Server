@@ -22,12 +22,12 @@ router.post(
             let friendUserInfo = await User.findOne({id: friendID});
 
             if(!myUserInfo){
-                res.status(400).json({
+                return res.status(400).json({
                     errors: [{msg: "나의 아이디 값이 없습니다."}]
                 });
             }
             if(!friendUserInfo){
-                res.status(400).json({
+                return res.status(400).json({
                     errors: [{msg: "존재하지 않는 친구의 아이디 값입니다!"}]
                 });
             }
@@ -134,7 +134,6 @@ router.post(
                 }
             });
         
-        // return 시켜줄 값 여기서 파싱 시켜서 주기
         }catch(err){
             console.log(err.message);
             res.status(500).json({
